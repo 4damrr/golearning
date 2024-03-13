@@ -1,0 +1,17 @@
+### Get todos
+GET http://localhost:8080/todos
+
+### Create new todo
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+    "name": "DO something",
+    "detail": "Do anything"
+}
+
+### Remove todo
+DELETE http://localhost:8080/todos/uuid
+{
+    "id": "fd410ab6-3d59-4d87-be87-02f9d4bc1e9d"
+}
